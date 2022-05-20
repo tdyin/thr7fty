@@ -1,0 +1,126 @@
+GET http://localhost:8000/api/getProducts
+
+###
+
+GET http://localhost:8000/api/getProducts/622697948e49225e6b739eec
+
+###
+
+GET http://localhost:8000/api/searchProducts/a
+
+###
+
+POST http://localhost:8000/api/addProduct
+Content-Type: application/json
+
+{
+  "title": "Vintage Elvis Presley A Legendary Performer Volume 1 CD",
+  "description": "Vintage Elvis Presley A Legendary Performer Volume 1 CD in excellent condition",
+  "categories": "Vintage",
+  "price": "15",
+  "rating": "5",
+  "imgurl": "https://media-photos.depop.com/b0/11293402/1133915638_a48a2a57536440999227600f98ac5209/P0.jpg"
+}
+
+###
+POST http://localhost:8000/api/createCart
+Content-Type: application/json
+
+{
+  "userId": "test"
+}
+
+###
+DELETE http://localhost:8000/api/deleteCart/test
+Content-Type: application/json
+
+###
+POST http://localhost:8000/api/addToCart/test/1234
+Content-Type: application/json
+
+###
+POST http://localhost:8000/api/removeFromCart/test/123
+Content-Type: application/json
+
+###
+POST http://localhost:8000/api/clearCart/test
+Content-Type: application/json
+
+###
+
+GET http://localhost:8000/api/getCart/test
+###
+DELETE http://localhost:3000/api/deleteProduct/6225df31d480003ee04e124b
+
+###
+PATCH http://localhost:3000/api/updateProduct/6225df31d480003ee04e124b
+Content-Type: application/json
+
+{
+  "title": "Black Nike Hat"
+}
+
+###
+
+GET http://localhost:8000/api/getPayment
+
+###
+
+GET http://localhost:8000/api/getPayment/624b67f138e3639649d7119a
+
+###
+
+POST http://localhost:8000/api/createPayment
+Content-Type: application/json
+
+{
+  "name": "Gabriel",
+  "address": "6723 Lewis Rd",
+  "cardNumber": "5672 2373 1937 1274",
+  "expirationDate": "05/25",
+  "securityNumber": "123"
+}
+
+###
+
+PATCH http://localhost:8000/api/updatePayment/62586fb4893ee620a0b92664
+Content-Type: application/json
+
+{
+  "address": "577 Mission St"
+}
+
+###
+
+DELETE http://localhost:8000/api/deletePayment/62586fb4893ee620a0b92664
+###
+
+GET http://localhost:8000/api/getSellingProducts
+
+###
+
+GET http://localhost:8000/api/getSellingProducts/Dave
+
+###
+
+POST http://localhost:8000/api/createSellingProducts
+Content-Type: application/json
+
+{
+  "userId": "Dave"
+}
+
+###
+
+DELETE http://localhost:8000/api/deleteSellingProducts/Dave
+
+
+###
+
+POST  http://localhost:8000/api/addProductsSold/Dave/632
+
+### 
+
+POST  http://localhost:8000/api/removeProductsSold/Dave/632
+
+

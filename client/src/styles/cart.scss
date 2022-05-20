@@ -1,0 +1,23 @@
+.cart-page {
+    display: flex;
+    padding: 40px;
+    min-height: calc(100vh - 100px);
+}
+
+.cart-left {
+    width: 75%;
+}
+
+.cart-right {
+    width: 25%;
+}
+
+.removeBtn {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.removeBtn:focus, .removeBtn:active:focus, .removeBtn.active:focus{
+    outline:none !important;
+    box-shadow:none !important;
+}

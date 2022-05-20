@@ -1,0 +1,42 @@
+@import 'colors';
+
+.about-page {
+  padding-top: 2vh;
+  padding-bottom: 5vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.about-page h1 {
+  font-weight: bold;
+}
+
+.about-page h2 {
+  font-style: italic;
+}
+
+.about-each {
+  margin: 1vh;
+}
+
+.about-detail {
+  display: flex;
+  flex-direction: row;
+  padding: 5vh;
+}
+
+.about-pic img {
+  object-fit: cover;
+  height: 250px;
+  width: 250px;
+}
+
+.about-desc {
+  margin: 5vh;
+  text-align: left;
+}
+
+.about-desc h3 {
+  color: $secondary;
+}

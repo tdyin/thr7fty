@@ -1,0 +1,30 @@
+{
+  "name": "applications",
+  "version": "1.0.0",
+  "description": "group7 project",
+  "main": "app.js",
+  "scripts": {
+    "client-start": "npm start --prefix client",
+    "server-start": "npm run devStart --prefix server",
+    "client-install": "npm install --prefix client",
+    "server-install": "npm install --prefix server",
+    "install": "concurrently \"npm run client-install\" \"npm run server-install\"",
+    "dev": "concurrently \"npm run server-start\" \"npm run client-start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CSC-648-SFSU/csc-648-project-csc-648-team7.git"
+  },
+  "author": "group7",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CSC-648-SFSU/csc-648-project-csc-648-team7/issues"
+  },
+  "homepage": "https://github.com/CSC-648-SFSU/csc-648-project-csc-648-team7#readme",
+  "dependencies": {
+    "concurrently": "^7.0.0"
+  },
+  "devDependencies": {
+    "jest": "^28.0.3"
+  }
+}

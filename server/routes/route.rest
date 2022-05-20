@@ -1,0 +1,19 @@
+
+
+
+
+
+POST http://localhost:3000/api/localhost:3000/api/createUser
+Content-Type: application/json
+
+{
+    "email": "chucknorris@gmail.com",
+    "username": "chucknorris89",
+    "password": "imchucknorris",
+    ""
+    ""
+    
+}
+
+
+
