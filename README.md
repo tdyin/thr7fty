@@ -1,7 +1,5 @@
 # CSC648-spring22-04-Team07 Repository
 
-## Application URL: http://54.215.36.43/
-
 
 ## Please do the following steps before completing Milestone 0.
 1. Change the name of the repository of csc648-spring22-SectionName-teamNN. 
